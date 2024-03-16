@@ -27,6 +27,7 @@ const Header = () => {
         </div>
         <a
           href="mailto:hello@diamondlabs.io"
+          target="_blank"
           className="text-white inline-block  font-medium px-4 py-2 rounded-full border border-white"
         >
           CONTACT
