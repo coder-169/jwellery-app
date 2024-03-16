@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="w-full absolute bottom-6">
-          <h2 className="text-right pr-8">&copy;{}</h2>
+          <h2 className="text-right pr-8">&copy;{new Date().getFullYear()}</h2>
           <h1 className="uppercase leading-none text-[10vw] lg:text-[13vw] text-center w-full">
             Diamond Labs
           </h1>

@@ -98,7 +98,8 @@ const Page = () => {
     setProductDetails({ ...productDetails, [e.target.name]: e.target.value });
   };
   return (
-    <section className="flex items-center justify-center h-auto md:h-[100vh] w-full bg-gray-900 text-white">
+    <section className="flex relative items-center justify-center h-auto md:h-[100vh] w-full bg-gray-900 text-white">
+      <Link href={'/'} className="text-white font-medium absolute top-4 left-4">Home</Link>
       {loading ? (
         <Loader />
       ) : (

@@ -8,6 +8,7 @@ import Link from "next/link";
 import ProductCard from "./ProductCard";
 import axios from "axios";
 import { toast } from "react-toastify";
+import Loader from "./Loader";
 
 const Page2 = () => {
   // const products = [
@@ -55,7 +56,7 @@ const Page2 = () => {
         <section className="body-font mt-5">
           <div className="container px-[5vw] mx-auto">
             {loading ? (
-              "LOading"
+              <Loader/>
             ) : (
               <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
                 {products.map((product) => (
