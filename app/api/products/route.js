@@ -3,11 +3,7 @@ import dbConnect from "@/app/utils/db";
 import { NextResponse } from "next/server";
 // Set up the multer middleware with the desired configuration
 
-export async function POST(req, res) {
-    if (req.method !== "POST") {
-        res.status(405).json({ error: "Method Not Allowed" });
-        return;
-    }
+export async function GET(req, res) {
     // Use the `upload` middleware to handle the file upload
     try {
         await dbConnect()
