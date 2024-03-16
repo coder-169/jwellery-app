@@ -4,7 +4,7 @@ import Page2 from "../components/Products";
 import Page3 from "../components/Trade";
 import Page4 from "../components/Team";
 import Page5 from "../components/Feature";
-import Footer from "../Components/Footer";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
