@@ -56,7 +56,7 @@ const Page2 = () => {
         <section className="body-font mt-5">
           <div className="container px-[5vw] mx-auto">
             {loading ? (
-              <Loader/>
+              <Loader />
             ) : (
               <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
                 {products.map((product) => (
@@ -75,7 +75,7 @@ const Page2 = () => {
         <div className="w-full px-[5vw]">
           <div className="w-full flex justify-center mt-10">
             <Link
-              href=""
+              href="https://thepeak.io/jewellery"
               className="border px-4 py-2 font-medium uppercase rounded-md border-gray-400"
             >
               Browse Products
@@ -94,12 +94,13 @@ const Page2 = () => {
                   services available
                 </p>
                 <div className="flex justify-center">
-                  <Link
-                    href=""
+                  <a
+                    href="mailto:hello@diamondlabs.io"
+                    target="_blank"
                     className="inline-flex border-2  border-gray-300 py-3 px-5 rounded"
                   >
                     SEND INQUIRY
-                  </Link>
+                  </a>
                 </div>
               </div>
               <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">

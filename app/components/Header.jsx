@@ -12,12 +12,10 @@ const Header = () => {
       <div className="h-20 flex justify-between items-center sm:bg-transparent nav px-2 lg:px-[5vw]">
         <h2 className="text-3xl font-semibold">DIAMOND LABS</h2>
         <div className="links flex font-semibold gap-[3vw] lg:text-xl">
-          <Link className="text-sm" href="">
+          <Link className="text-sm" href="https://thepeak.io/">
             COLLECTION
           </Link>
-          <Link className="text-sm" href="">
-            DIAMONDS
-          </Link>
+          
           <Link
             className="text-sm"
             href="https://diamondlabs.io/exchange/trade"
@@ -65,8 +63,7 @@ const Header = () => {
       >
         <div className="h-full w-2/4 bg-black/70 flex flex-col items-start px-14 py-8">
           <div className="links flex flex-col font-semibold gap-[3vw] lg:text-xl">
-            <Link href="">COLLECTION</Link>
-            <Link href="">DIAMONDS</Link>
+            <Link href="https://thepeak.io/">COLLECTION</Link>
             <Link href="https://diamondlabs.io/exchange/trade">TRADE</Link>
             <a
               href="mailto:hello@diamondlabs.io"

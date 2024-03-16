@@ -23,11 +23,11 @@ const Page1 = () => {
             Where Elegance meets <br /> Technology.
           </h1>
           <p className="w-[70vw] md:w-[40vw]  text-sm text-center mt-4 ">
-            Diamond Laboratories combines unique technologies with precision
-            engineering to immortalize your creations explore
+          Diamond Labs combines crafting, engineering and data technologies to create your perfect piece of jewellery and then, immortalize it. 
+
           </p>
           <Link
-            href=""
+            href="http://diamondlabs.io/igo"
             className="bg-white lg:px-6 lg:py-4 sm:px-4 sm:py-3 px-3 py-2 rounded-md mt-4 text-black font-normal"
           >
             EXPLORE
