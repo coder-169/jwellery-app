@@ -28,7 +28,7 @@ const Page1 = () => {
           </p>
           <Link
             href=""
-            className="bg-white px-6 py-4 rounded-md mt-4 text-black font-normal"
+            className="bg-white lg:px-6 lg:py-4 sm:px-4 sm:py-3 px-3 py-2 rounded-md mt-4 text-black font-normal"
           >
             EXPLORE
           </Link>

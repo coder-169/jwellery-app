@@ -1,6 +1,7 @@
 import React from "react";
 import img from "../../public/assets/diamond.png";
 import Image from "next/image";
+import Link from "next/link";
 
 const Page5 = () => {
   return (
@@ -21,9 +22,12 @@ const Page5 = () => {
                   Customize and craft your jewellery from scratch, with each
                   moment immortalized and captured on-chain.
                 </p>
-                <h2 className="text-xl font-normal title-font mt-10">
-                  Coming soon
-                </h2>
+                <Link
+                  href="https://pitch.com/v/crafting-commemoration-certificate-rwvyvw"
+                  className="text-xl inline-block font-normal title-font mt-10"
+                >
+                  Witness the concept
+                </Link>
               </div>
             </div>
           </div>

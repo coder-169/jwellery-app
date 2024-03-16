@@ -4,7 +4,7 @@ import React from "react";
 const TeamCard = ({ name, about, img }) => {
   return (
     <div className="lg:w-1/4 md:w-1/2 lg:p-8 py-4 w-full px-24">
-      <div className="relative h-96 sm:h-[40vh] bg-zinc-200 rounded-2xl overflow-hidden">
+      <div className="relative sm:h-[40vh] bg-zinc-200 rounded-2xl overflow-hidden">
         <Image
           width={300}
           height={600}

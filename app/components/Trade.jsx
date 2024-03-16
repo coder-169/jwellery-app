@@ -27,7 +27,7 @@ const Page3 = () => {
                   precious gemstones, the Peer-To-Peer way.
                 </p>
                 <Link
-                  href=""
+                  href="https://diamondlabs.io/igo"
                   className="mt-12 inline-block border  border-gray-400 px-5 py-3 rounded-md"
                 >
                   TRADE NOW

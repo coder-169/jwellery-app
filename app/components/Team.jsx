@@ -1,14 +1,14 @@
 import React from "react";
 import first from "../../public/assets/1.png";
-import second from "../../public/assets/8.jpg";
+import second from "../../public/assets/8.png";
 import third from "../../public/assets/2.png";
 import fourth from "../../public/assets/3.png";
 import fifth from "../../public/assets/4.png";
 import sixth from "../../public/assets/5.png";
 import seventh from "../../public/assets/6.png";
 import eighth from "../../public/assets/7.png";
-import ninth from "../../public/assets/9.jpg";
-import tenth from "../../public/assets/10.jpg";
+import ninth from "../../public/assets/9.png";
+import tenth from "../../public/assets/10.png";
 import TeamCard from "./TeamCard";
 
 const Page4 = () => {
