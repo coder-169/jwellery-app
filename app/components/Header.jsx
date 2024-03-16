@@ -12,7 +12,9 @@ const Header = () => {
   return (
     <>
       <div className="h-20 flex justify-between items-center sm:bg-transparent nav px-2 lg:px-[5vw]">
-        <h2 className="text-3xl font-semibold">DIAMOND LABS</h2>
+        <div className="">
+          <Image src={Logo} width={250} height={100} />
+        </div>
         <div className="links flex font-semibold gap-[3vw] lg:text-xl">
           <Link className="text-sm" href="https://thepeak.io/">
             COLLECTION
