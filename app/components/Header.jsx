@@ -1,6 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
+import Logo from "../../public/assets/footerLogo.png";
 
 const Header = () => {
   const [isActive, setisActive] = useState(false);
@@ -15,7 +17,7 @@ const Header = () => {
           <Link className="text-sm" href="https://thepeak.io/">
             COLLECTION
           </Link>
-          
+
           <Link
             className="text-sm"
             href="https://diamondlabs.io/exchange/trade"
@@ -31,9 +33,9 @@ const Header = () => {
           CONTACT
         </a>
       </div>
-      <h2 className="h2 text-4xl absolute w-full font-semibold p-8 sm:py-8 sm:px-0 sm:text-center">
-        DIAMOND LABS
-      </h2>
+      <div className="h2 p-8 flex justify-center top-8 sm:top-0 absolute w-full">
+        <Image src={Logo} width={200} height={100} className="mx-auto" />
+      </div>
       <button
         onClick={navBar}
         className="btn px-6 py-4 rounded-full border gap-4 flex items-center border-white font-semibold z-[99] absolute top-2 right-2"
