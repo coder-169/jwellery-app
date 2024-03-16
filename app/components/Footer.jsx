@@ -6,9 +6,9 @@ import footerLogo2 from "../../public/assets/footerLogo2.svg";
 
 const Footer = () => {
   return (
-    <footer className="h-screen w-full px-8 pt-10">
+    <footer className="h-screen w-full px-6 pt-10">
       <div className="bg-gray-100 w-full h-full overflow-hidden relative rounded-tr-3xl rounded-tl-3xl">
-        <div className="w-full h-full flex py-8 px-16 lg:p-20 sm:py-20 sm:px-6 lg:gap-32 flex-col sm:flex-row lg:flex-row">
+        <div className="w-full h-full flex py-8 px-10 lg:p-20 sm:py-20 sm:px-6 lg:gap-32 flex-col sm:flex-row lg:flex-row">
           <div className="flex flex-col">
             <div className="flex gap-5 sm:gap-16 flex-col sm:flex-row lg:flex-row">
               <div className="text-sm flex flex-col gap-4 uppercase font-semibold">
@@ -31,18 +31,18 @@ const Footer = () => {
                 </a>
               </div>
             </div>
-            <div className="mt-16 lg:w-auto sm:w-auto md:w-auto w-20">
+            <div className="lg:mt-16 sm:mt-16 mt-5 lg:w-auto sm:w-auto md:w-auto w-20">
               <Image src={footerLogo2} width={120} height={100} />
             </div>
           </div>
           <div className="lg:w-3/5 sm:w-2/3 sm:px-16 w-full text-sm lg:text-xl py-10 mx-auto text-zinc-600">
-            <p className="font-semibold">
+            <p className="font-semibold leading-4 lg:leading-normal sm:leading-normal">
               DIAMOND LABORATORIES PTE. LTD. IS REGISTERED ON THE REPUBLIC OF
               SINGAPORE&apos;S REGISTRAR OF REGULATED DEALERS UNDER THE LICENSE
               NUMBER: PS20220002552 AND UNDER THE PRECIOUS STONES AND PRECIOUS
               METALS
             </p>
-            <p className="mt-5 font-semibold">
+            <p className="lg:mt-5 sm:mt-5 mt-3 font-semibold leading-4 lg:leading-normal sm:leading-normal">
               (PREVENTION OF MONEY LAUNDERING AND TERRORISM FINANCING) ACT 2019
             </p>
           </div>
