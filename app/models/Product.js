@@ -14,7 +14,6 @@ const ProductSchema = new mongoose.Schema({
         type: String,
         default: ""
     },
-
     thumbnail: {
         type: String,
         default: ""

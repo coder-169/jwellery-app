@@ -22,13 +22,13 @@ const Page3 = () => {
                   A new way to trade
                 </h2>
 
-                <p className="lg:w-1/2 w-3/4 mx-auto  leading-5 font-semibold">
+                <p className="lg:w-1/2 w-3/4 mx-auto  leading-5 ">
                   Diamond Laboratories offers a brand new way to trade your
                   precious gemstones, the Peer-To-Peer way.
                 </p>
                 <Link
                   href=""
-                  className="mt-12 inline-block font-semibold border  border-zinc-500 px-4 py-2 rounded-md"
+                  className="mt-12 inline-block border  border-gray-400 px-5 py-3 rounded-md"
                 >
                   TRADE NOW
                 </Link>

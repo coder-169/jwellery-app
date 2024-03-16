@@ -75,7 +75,7 @@ const Page2 = () => {
           <div className="w-full flex justify-center mt-10">
             <Link
               href=""
-              className="border px-4 py-2 font-medium uppercase rounded-md border-zinc-400"
+              className="border px-4 py-2 font-medium uppercase rounded-md border-gray-400"
             >
               Browse Products
             </Link>
@@ -83,11 +83,11 @@ const Page2 = () => {
           <section className="mt-16 body-font">
             <div className="container mx-auto flex px-5 py-16 md:flex-row flex-col items-center">
               <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                <h1 className="title-font sm:text-4xl tracking-tighter text-3xl mb-4 font-medium">
+                <h1 className="title-font sm:text-4xl tracking-wider text-3xl mb-4 font-medium">
                   Your diamond. Your design.
                 </h1>
 
-                <p className="mb-8 leading-5 w-3/4 font-semibold ">
+                <p className="mb-8 leading-5 text-sm w-3/4 ">
                   Whether it&apos;s your favourite NFT, or a picture of your
                   loved ones, Diamond Laboratories offers the best crafting
                   services available
@@ -95,7 +95,7 @@ const Page2 = () => {
                 <div className="flex justify-center">
                   <Link
                     href=""
-                    className="inline-flex border font-semibold border-zinc-500 py-2 px-6 rounded text-lg"
+                    className="inline-flex border-2  border-gray-300 py-3 px-5 rounded"
                   >
                     SEND INQUIRY
                   </Link>

@@ -14,8 +14,8 @@ const TeamCard = ({ name, about, img }) => {
         />
       </div>
       <div className="mt-4">
-        <h3 className="text font-medium title-font mb-1">{name}</h3>
-        <h2 className="title-font text-md text-zinc-600">{about}</h2>
+        <h3 className="text-lg font-medium title-font mb-1">{name}</h3>
+        <h2 className="title-font text-sm text-zinc-600">{about}</h2>
       </div>
     </div>
   );

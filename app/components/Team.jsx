@@ -66,7 +66,7 @@ const Page4 = () => {
   ];
   return (
     <div className="w-full px-32">
-      <h1 className="text-5xl tracking-tight text-center">
+      <h1 className="text-5xl text-center">
         Featuring the team
       </h1>
       <section className="body-font">
