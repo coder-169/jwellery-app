@@ -24,7 +24,7 @@ const Page5 = () => {
                 </p>
                 <Link
                   href="https://pitch.com/v/crafting-commemoration-certificate-rwvyvw"
-                  className="text-xl inline-block font-normal title-font mt-10"
+                  className="text-xl inline-block border border-zinc-500 px-4 py-2 rounded-md font-normal title-font mt-10"
                 >
                   Witness the concept
                 </Link>
