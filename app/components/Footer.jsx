@@ -38,7 +38,7 @@ const Footer = () => {
           <div className="lg:w-3/5 sm:w-2/3 sm:px-16 w-full text-sm lg:text-xl py-10 mx-auto text-zinc-600">
             <p className="font-semibold">
               DIAMOND LABORATORIES PTE. LTD. IS REGISTERED ON THE REPUBLIC OF
-              SINGAPORE'S REGISTRAR OF REGULATED DEALERS UNDER THE LICENSE
+              SINGAPORE&apos;S REGISTRAR OF REGULATED DEALERS UNDER THE LICENSE
               NUMBER: PS20220002552 AND UNDER THE PRECIOUS STONES AND PRECIOUS
               METALS
             </p>
