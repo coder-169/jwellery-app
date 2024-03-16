@@ -38,7 +38,7 @@ const Header = () => {
       </h2>
       <button
         onClick={navBar}
-        className="btn px-4 py-2 rounded-full border gap-4 flex items-center border-white font-semibold z-[99] absolute top-2 right-2"
+        className="btn px-6 py-4 rounded-full border gap-4 flex items-center border-white font-semibold z-[99] absolute top-2 right-2"
       >
         <div
           className={`flex flex-col ${
@@ -56,7 +56,7 @@ const Header = () => {
             }`}
           ></div>
         </div>
-        Menu
+        {/* Menu */}
       </button>
       <div
         className={`nav2 h-full w-full absolute ${
@@ -67,10 +67,14 @@ const Header = () => {
           <div className="links flex flex-col font-semibold gap-[3vw] lg:text-xl">
             <Link href="">COLLECTION</Link>
             <Link href="">DIAMONDS</Link>
-            <Link href="">TRADE</Link>
-            <Link href="" className="text-white mt-12 font-bold">
+            <Link href="https://diamondlabs.io/exchange/trade">TRADE</Link>
+            <a
+              href="mailto:hello@diamondlabs.io"
+              target="_blank"
+              className="text-white inline-block mt-12 font-bold"
+            >
               CONTACT
-            </Link>
+            </a>
           </div>
         </div>
       </div>

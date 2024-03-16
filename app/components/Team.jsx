@@ -66,9 +66,7 @@ const Page4 = () => {
   ];
   return (
     <div className="w-full px-4 lg:px-32">
-      <h1 className="text-3xl md:text-5xl text-center">
-        Featuring the team
-      </h1>
+      <h1 className="text-3xl md:text-5xl text-center">Featuring the team</h1>
       <section className="body-font">
         <div className="container px-5 py- mt-10 mx-auto">
           <div className="flex flex-wrap -m-4 justify-center">
