@@ -12,7 +12,6 @@ const Loader = () => {
         <li></li>
         <li></li>
       </ul>
-      <div class="textCon">Diamond Loader</div>
     </div>
   );
 };
