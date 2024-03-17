@@ -23,7 +23,10 @@ const Page1 = () => {
             Where Elegance meets <br /> Technology.
           </h1>
           <p className="w-[80vw] sm:[70vw] md:w-[40vw]  text-sm text-center mt-4 ">
-          Diamond Labs combines crafting, engineering and data technologies to create, design your perfect piece of jewellery and then, immortalize it.
+            Diamond Labs combines crafting, engineering and data technologies to
+            create, design your perfect piece of jewellery and then, immortalize
+            it.
+            <br />
             <br /> Legacy, made perfect.
           </p>
           <Link
