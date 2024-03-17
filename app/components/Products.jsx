@@ -4,6 +4,7 @@ import first from "../../public/assets/pinkBlossom.jpg";
 import second from "../../public/assets/PinkRound.jpg";
 import third from "../../public/assets/Bracelet.jpg";
 import fourth from "../../public/assets/secondImage.jpeg";
+import peakLogo from "../../public/assets/Peak.png";
 import Link from "next/link";
 import ProductCard from "./ProductCard";
 import axios from "axios";
@@ -50,10 +51,13 @@ const Page2 = () => {
   return (
     <div className="w-full">
       <h2 className="px-8 mt-16 lg:w-full sm:text-4xl text-center tracking-tight py-5 lg:text-5xl text-3xl">
-        Our extensive collection of gemstones
+        Our subsidiary brand
       </h2>
+      <div className="w-full py-5">
+        <Image src={peakLogo} className="mx-auto w-36 sm:w-44 md:w-44 lg:w-44" />
+      </div>
       <div className="w-full px-[5vw]">
-        <section className="body-font mt-5">
+        <section className="body-font lg:mt-5 mt-8">
           <div className="container px-[5vw] mx-auto">
             {loading ? (
               <Loader />

@@ -22,9 +22,9 @@ const Page1 = () => {
           <h1 className="text-center font-sm text-5xl lg:text-7xl font-semibold">
             Where Elegance meets <br /> Technology.
           </h1>
-          <p className="w-[70vw] md:w-[40vw]  text-sm text-center mt-4 ">
+          <p className="w-[80vw] sm:[70vw] md:w-[40vw]  text-sm text-center mt-4 ">
             Diamond Labs combines crafting, engineering and data technologies to
-            create your perfect piece of jewellery and then, immortalize it.{" "}
+            create your perfect piece of jewellery and then, immortalize it.
             <br /> Legacy, made perfect.
           </p>
           <Link

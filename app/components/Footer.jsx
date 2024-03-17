@@ -31,9 +31,12 @@ const Footer = () => {
                 </a>
               </div>
             </div>
-            <div className="lg:mt-16 sm:mt-16 mt-5 lg:w-auto sm:w-auto md:w-auto w-20">
+            <Link
+              href="http://www.frac.io"
+              className="lg:mt-16 inline-block border border-zinc-600 p-3 rounded-md sm:mt-16 mt-5 lg:w-44 sm:w-44 md:w-44 w-20"
+            >
               <Image src={footerLogo2} width={120} height={100} />
-            </div>
+            </Link>
           </div>
           <div className="lg:w-3/5 sm:w-2/3 sm:px-16 w-full text-sm lg:text-xl py-10 mx-auto text-zinc-600">
             <p className="font-semibold leading-4 lg:leading-normal sm:leading-normal">
@@ -49,8 +52,8 @@ const Footer = () => {
         </div>
         <div className="w-full absolute bottom-6">
           <h2 className="text-right pr-8">&copy;{new Date().getFullYear()}</h2>
-          <div className="px-5">
-            <Image src={footerLogo} alt="" />
+          <div href="http://www.frac.io" className="px-5">
+            <Image src={footerLogo} alt="Diamonds Labs" />
           </div>
         </div>
       </div>

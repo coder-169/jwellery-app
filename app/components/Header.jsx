@@ -35,12 +35,12 @@ const Header = () => {
           CONTACT
         </a>
       </div>
-      <div className="h2 p-8 flex justify-center top-8 sm:top-0 absolute w-full">
+      <div className="h2 p-8 flex justify-center top-14 sm:top-0 absolute w-full">
         <Image src={Logo} width={200} height={100} className="mx-auto" />
       </div>
       <button
         onClick={navBar}
-        className="btn px-6 py-4 rounded-full border gap-4 flex items-center border-white font-semibold z-[99] absolute top-2 right-2"
+        className="btn sm:px-6 sm:py-4 rounded-md border px-3 py-3 sm:gap-4 flex items-center border-white font-semibold z-[99] absolute top-3 right-3"
       >
         <div
           className={`flex flex-col ${
@@ -48,12 +48,12 @@ const Header = () => {
           } items-center justify-center`}
         >
           <div
-            className={`w-8 h-1 rounded-full transition-all duration-300 bg-white ${
+            className={`w-6 h-1 rounded-full transition-all duration-300 bg-white ${
               isActive ? "rotate-45" : ""
             }`}
           ></div>
           <div
-            className={`w-8 h-1 rounded-full transition-all duration-300 bg-white ${
+            className={`w-6 h-1 rounded-full transition-all duration-300 bg-white ${
               isActive ? "-rotate-45" : ""
             }`}
           ></div>
