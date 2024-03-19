@@ -51,10 +51,13 @@ const Page2 = () => {
   return (
     <div className="w-full">
       <h2 className="px-8 mt-16 lg:w-full sm:text-4xl text-center tracking-tight py-5 lg:text-5xl text-3xl">
-        Our subsidiary brand
+        Our Brand
       </h2>
       <div className="w-full py-5">
-        <Image src={peakLogo} className="mx-auto w-36 sm:w-44 md:w-44 lg:w-44" />
+        <Image
+          src={peakLogo}
+          className="mx-auto w-36 sm:w-44 md:w-44 lg:w-44"
+        />
       </div>
       <div className="w-full px-[5vw]">
         <section className="body-font lg:mt-5 mt-8">
