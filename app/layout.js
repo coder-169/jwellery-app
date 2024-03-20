@@ -6,6 +6,15 @@ import { ToastContainer } from 'react-toastify';
 
 import 'react-toastify/dist/ReactToastify.css';
 import Head from "next/head";
+export const metadata = {
+  title: 'Diamond Labs',
+  description: 'Diamond Labs combines crafting, engineering and data technologies to create, design and trade your perfect pieces of jewellery and then, immortalizing them.\nLegacy, made perfect.',
+  openGraph: {
+    title: 'Diamond Labs',
+    description: 'Diamond Labs combines crafting, engineering and data technologies to create, design and trade your perfect pieces of jewellery and then, immortalizing them.\nLegacy, made perfect.',
+    image: "/favicon.ico",
+  },
+};
 
 
 export default function RootLayout({ children }) {
