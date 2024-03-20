@@ -12,11 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-        <link rel="manifest" href="/site.webmanifest" />
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+
         <meta
           name="description"
           content="Diamond Labs combines crafting, engineering and data technologies to create, design and trade your perfect pieces of jewellery and then, immortalizing them.  
@@ -28,6 +24,7 @@ export default function RootLayout({ children }) {
           property="og:site_name"
           content="Diamond Labs"
         />
+
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
@@ -35,10 +32,9 @@ export default function RootLayout({ children }) {
         />
         <meta
           property="og:description"
-          content="I am an Experienced Full stack web developer and blogger I create stunning and user-centric online experiences with seamless let&#039;s build your online presence."
+          content="Diamond Labs combines crafting, engineering and data technologies to create, design and trade your perfect pieces of jewellery and then, immortalizing them.  
+          Legacy, made perfect."
         />
-        <meta property="og:image:type" content="png" />
-        <meta property="og:image" content="/favicon.png" />
         <meta property="og:image:width" content="1536" />
         <meta property="og:image:height" content="2048" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -55,6 +51,14 @@ export default function RootLayout({ children }) {
         <meta name="twitter:creator" content="@diamondlabs" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+
+
       </head>
       <body className={inter.className}>
 
