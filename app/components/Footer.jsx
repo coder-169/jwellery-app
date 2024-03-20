@@ -35,7 +35,7 @@ const Footer = () => {
               href="http://www.frac.io"
               className="lg:mt-16 inline-block border border-zinc-600 p-3 rounded-md sm:mt-16 mt-5 lg:w-44 sm:w-44 md:w-44 w-20"
             >
-              <Image src={footerLogo2} width={120} height={100} />
+              <Image alt="" src={footerLogo2} width={120} height={100} />
             </Link>
           </div>
           <div className="lg:w-3/5 sm:w-2/3 sm:px-16 w-full text-sm lg:text-xl py-10 mx-auto text-zinc-600">

@@ -55,6 +55,7 @@ const Page2 = () => {
       </h2>
       <div className="w-full py-5">
         <Image
+          alt=""
           src={peakLogo}
           className="mx-auto w-36 sm:w-44 md:w-44 lg:w-44"
         />
