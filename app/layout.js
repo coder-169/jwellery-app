@@ -6,20 +6,6 @@ import { ToastContainer } from 'react-toastify';
 
 import 'react-toastify/dist/ReactToastify.css';
 import Head from "next/head";
-export const metadata = {
-  title: 'Diamond Labs',
-  description: 'Diamond Labs combines crafting, engineering and data technologies to create, design and trade your perfect pieces of jewellery and then, immortalizing them.\nLegacy, made perfect.',
-  openGraph: {
-    title: 'Diamond Labs',
-    description: 'Diamond Labs combines crafting, engineering and data technologies to create, design and trade your perfect pieces of jewellery and then, immortalizing them.\nLegacy, made perfect.',
-    
-    robots: "max-image-preview:large",
-    type: 'website',
-    locale: 'en_US',
-    site_name: 'Diamond Labs',
-
-  },
-};
 
 
 export default function RootLayout({ children }) {
@@ -52,6 +38,8 @@ export default function RootLayout({ children }) {
           content="I am an Experienced Full stack web developer and blogger I create stunning and user-centric online experiences with seamless let&#039;s build your online presence."
         />
 
+        <meta property="og:image:type" content="png" />
+        <meta property="og:image" content="/favicon.png" />
         <meta property="og:image:width" content="1536" />
         <meta property="og:image:height" content="2048" />
         <meta name="twitter:card" content="summary_large_image" />
