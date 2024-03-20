@@ -37,7 +37,6 @@ export default function RootLayout({ children }) {
           property="og:description"
           content="I am an Experienced Full stack web developer and blogger I create stunning and user-centric online experiences with seamless let&#039;s build your online presence."
         />
-
         <meta property="og:image:type" content="png" />
         <meta property="og:image" content="/favicon.png" />
         <meta property="og:image:width" content="1536" />
@@ -65,7 +64,7 @@ export default function RootLayout({ children }) {
           hideProgressBar={false}
           newestOnTop={false}
           closeOnClick
-          rtl={false}
+        rtl={false}
           pauseOnFocusLoss
           draggable
           pauseOnHover
