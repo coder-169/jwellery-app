@@ -12,7 +12,7 @@ export const metadata = {
   openGraph: {
     title: 'Diamond Labs',
     description: 'Diamond Labs combines crafting, engineering and data technologies to create, design and trade your perfect pieces of jewellery and then, immortalizing them.\nLegacy, made perfect.',
-    image: "/favicon.ico",
+    images: "/favicon.ico",
   },
 };
 
