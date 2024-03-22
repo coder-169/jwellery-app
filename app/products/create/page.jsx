@@ -50,7 +50,7 @@ const Page = () => {
       const { secure_url, public_id } = res;
       if (public_id && secure_url) {
         console.log("here");
-        const response = await fetch("/api/uploader", {
+        const response = await fetch("/api_home/uploader", {
           method: "POST",
           headers: {
             "content-type": "application/json",

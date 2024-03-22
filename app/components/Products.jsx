@@ -37,7 +37,7 @@ const Page2 = () => {
   const fetchProducts = async () => {
     setLoading(true);
     try {
-      const { data } = await axios.get("/api/products");
+      const { data } = await axios.get("/api_home/products");
       if (!data.success) toast.error(data.message);
       else setProducts(data.prods);
     } catch (error) {
